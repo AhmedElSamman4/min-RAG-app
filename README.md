@@ -120,3 +120,11 @@ The project runs on Python 3.11 through uv, independently of the system Python.
 
 - Declare dependencies in `pyproject.toml`; `uv.lock` records the resolved versions.
 - Never commit `.venv/` or any file containing secrets.
+
+## Run fastapi server
+
+```bash
+uv run uvicorn main:app --reload --host 0.0.0.0 --port 5000
+```
+
+## Download the POTSTMAN collection from [/assets/postman_collection.json](/assets/ postman_collection.json) and import it into your Postman to test the API endpoints.
