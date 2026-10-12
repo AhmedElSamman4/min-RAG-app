@@ -174,3 +174,17 @@ Confirm that Python 3.11 is selected, the environment synchronizes successfully,
 - A `requirements.txt` file is not necessary when using `uv`, unless a particular deployment workflow requires it.
 - Docker configuration and RAG-specific dependencies will be documented as they are introduced.
 - Never commit `.venv/` or files containing secrets, such as `.env`.
+
+## instollation
+
+### install requered packages
+
+```bash
+uv sync 
+``` 
+## setup virtual enviroment variables
+
+```bash
+cp .env.example .env
+```
+setup your .env file , like 'openai api key' value.
