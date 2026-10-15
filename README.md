@@ -128,3 +128,5 @@ uv run uvicorn main:app --reload --host 0.0.0.0 --port 5000
 ```
 
 ## Download the POTSTMAN collection from [/assets/postman_collection.json](/assets/ postman_collection.json) and import it into your Postman to test the API endpoints.
+
+
